@@ -1,0 +1,193 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e8d4b3;
+  }
+  
+  header {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .top-buttons select {
+    margin-right: 22px;
+    margin-top: 7px;
+    /* background: none; */
+    color: black;
+  }
+  
+  .sli1 {
+    float: left;
+    margin-top: 12%;
+    margin-right: 10px;
+    /* margin-left: 15%; */
+    font-size: 70px !important;
+  }
+  
+  .sli2 {
+    float: right;
+    margin-left: 10px;
+    margin-top: -15%;
+    /* margin-right: 15%; */
+    font-size: 70px !important;
+  }
+  
+  #mission {
+    background-color: rgb(86, 86, 218);
+    color: white !important;
+  }
+  
+  #app {
+    background-color: rgb(145, 93, 194);
+    color: white !important;
+  }
+  
+  .top-buttons {
+    text-align: right;
+    padding: 10px;
+    background-color: #3498db;
+  }
+  
+  .top-buttons a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .button-group {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .button-group a {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .button-group .symbol {
+    margin-left: 5px;
+  }
+  
+  .slider-buttons {
+    text-align: right;
+    margin-top: 5px;
+  }
+  
+  .slider-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  section,
+  .expandable-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .symbol {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  
+  #images {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    max-width: 30%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #reviews {
+    text-align: center;
+  }
+  
+  .review {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    font-style: italic;
+    color: #777;
+  }
+  
+  #smart-collar {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    color: #777;
+  }
+  
+  .top-buttons {
+    text-align: right;
+    padding: 10px;
+    background-color: #3498db;
+  }
+  
+  .top-buttons a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  /* Add this style for the expandable content container */
+  .expandable-content-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .expandable-content {
+    max-width: 100%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-left: auto; /* This will push the expandable content to the right */
+  }
+  
+  /* Adjust this margin to create space between "Services" and "Reviews" */
+  .expandable-content:not(:last-child) {
+    margin-right: 10px;
+  }
